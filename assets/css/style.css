@@ -1292,6 +1292,33 @@ body .modal-backdrop {
 .sc-breadcrumbs {
   position: relative;
 }
+.wrap-bread{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
+.sc-breadcrumbs .breadcrumbs-img {
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/breadcrumbs/banner-contact-us.jpeg);
+  background-size: auto,cover;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sc-breadcrumbs .breadcrumbs-img-2{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/breadcrumbs/banner-let-us-know.png);
+  background-size: auto,cover;
+  text-align: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
 .sc-breadcrumbs .breadcrumbs-img img {
   width: 100%;
 }
@@ -1300,6 +1327,11 @@ body .modal-backdrop {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+ .breadcrumbs-text-1 {
   width: 100%;
   text-align: center;
 }
@@ -2531,7 +2563,7 @@ body .modal-backdrop {
 }
 .sc-testimonial.style1 .testi-item {
   background-color: #fff;
-  background-image: url(../images/testimonial/cloud-pattern.png);
+  /* background-image: url(../images/testimonial/cloud-pattern.png); */
   background-repeat: no-repeat;
   border-radius: 10px;
   padding: 40px 45px;
@@ -2573,7 +2605,9 @@ body .modal-backdrop {
   color: #ffffff;
 }
 .sc-testimonial.style1 .center .testi-item {
-  background-color: #40c1ec;
+  /* background-color: #40c1ec; */
+  background-color: #e0f7ff;
+  background-image: repeating-linear-gradient( #40c1ec55, #40c1ec );
 }
 .sc-testimonial.style1 .center .testi-item .desc {
   color: #ffffff;
@@ -3924,6 +3958,12 @@ body .modal-backdrop {
   border-radius: 5px;
   background: #122d48;
 }
+.form-box-shadow {
+    box-shadow: 4px 6px 10px 2px rgb(0 0 0 / 35%) !important;
+    -webkit-box-shadow: 4px 6px 10px 2px rgb(0 0 0 / 35%) !important;
+    -moz-box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.35) !important;
+}
+
 .contact-page-section .sc-quick-contact .from-control {
   /* border-color: #F1F1F1;
   color: #363636;
@@ -3946,7 +3986,7 @@ body .modal-backdrop {
     color: #767676;
     padding: 10px 18px;
     /* background: #122D48; */
-    color: #fff;
+    /* color: #fff; */
 }
 
 .contact-page-section .sc-quick-contact .from-control ::placeholder{
