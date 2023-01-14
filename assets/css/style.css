@@ -201,7 +201,8 @@ body .dblock {
   color: #ffffff;
 }
 ::selection {
-  background: #f24d5d;
+  /* background: #f24d5d; */
+  background: #00A551;
   text-shadow: none;
   color: #ffffff;
 }
@@ -232,6 +233,10 @@ body .dblock {
 .transparent-bg {
   background: transparent;
 }
+.bg-lg-green{
+  background-color: rgb(0,165,81,10%);
+}
+
 /* ------------------------------------
     02. Global Class CSS
 ---------------------------------------*/
@@ -417,7 +422,8 @@ body .modal-backdrop {
   font-family: 'Jost', sans-serif;
   font-weight: 600;
   color: #ffffff;
-  background: #f24d5d;
+  /* background: #f24d5d; */
+  background: #007236;
   position: relative;
   overflow: hidden;
 }
@@ -429,13 +435,14 @@ body .modal-backdrop {
 }
 .readon:hover {
   color: #ffffff;
-  background: #f13f50;
+  background: #00A551;
 }
 .readon:hover i {
   left: 4px;
 }
 .sec-title .sub-title {
-  color: #40c1ec;
+  /* color: #40c1ec; */
+  color: #007236;
   font-size: 16px;
   font-weight: 500;
   font-family: 'Jost', sans-serif;
@@ -444,7 +451,8 @@ body .modal-backdrop {
   height: 2px;
   border-radius: 0;
   width: 40px;
-  background: #40c1ec;
+  /* background: #40c1ec; */
+  background: #00A551;
   position: relative;
   display: inline-block;
   left: 15px;
@@ -458,7 +466,8 @@ body .modal-backdrop {
   height: 2px;
   border-radius: 3px;
   top: 0;
-  background: #40c1ec;
+  /* background: #40c1ec; */
+  background: #00A551;
 }
 .heading-border-line:before {
   right: -20px;
@@ -483,7 +492,8 @@ body .modal-backdrop {
   z-index: 0;
   content: "\f114";
   font-family: flaticon;
-  color: #40c1ec;
+  /* color: #40c1ec; */
+  color: #007236;
   font-size: 20px;
 }
 .check-square.two-line {
@@ -558,7 +568,8 @@ body .modal-backdrop {
 .sc-carousel.nav-style1 .owl-nav .owl-next:hover,
 .sc-carousel.nav-style2 .owl-nav .owl-prev:hover,
 .sc-carousel.nav-style1 .owl-nav .owl-prev:hover {
-  background: #f24d5d;
+  /* background: #f24d5d; */
+  background: #00A551;
 }
 .sc-carousel.nav-style2 .owl-nav .owl-next:hover i,
 .sc-carousel.nav-style1 .owl-nav .owl-next:hover i,
@@ -597,6 +608,7 @@ body .modal-backdrop {
 .sc-carousel .owl-dots {
   text-align: center;
   margin-top: 40px;
+  display: none;
 }
 .sc-carousel .owl-dots .owl-dot {
   width: 20px;
@@ -704,7 +716,8 @@ body .modal-backdrop {
   font-size: 15px;
 }
 .sc-header-section .sc-header .topbar-area .topbar-contact li a:hover {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #00A551;
 }
 .sc-header-section .sc-header .topbar-area .topbar-contact li:last-child {
   padding-left: 20px;
@@ -729,13 +742,15 @@ body .modal-backdrop {
 }
 .sc-header-section .sc-header .topbar-area .topbar-right li.login-register i {
   margin-right: 10px;
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #00A551;
 }
 .sc-header-section .sc-header .topbar-area .topbar-right li.login-register a {
   color: #ffffff;
 }
 .sc-header-section .sc-header .topbar-area .topbar-right li.login-register a:hover {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #00A551;
 }
 .sc-header-section .sc-header .logo-part {
   position: relative;
@@ -773,13 +788,14 @@ body .modal-backdrop {
   font-family: 'Jost', sans-serif;
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.nav-menu li a:hover {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #00A551;
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.nav-menu li a:last-child {
   margin-right: 0;
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.nav-menu li.current-menu-item > a {
-  color: #f24d5d;
+  /* color: #f24d5d; */
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.nav-menu li.menu-item-has-children a {
   padding-right: 12px;
@@ -800,7 +816,8 @@ body .modal-backdrop {
   content: "-";
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.nav-menu.onepage-menu .active-menu a {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #007236;
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.sub-menu {
   background: #ffffff;
@@ -821,7 +838,8 @@ body .modal-backdrop {
   font-size: 14px;
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.sub-menu li a:hover {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #007236;
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.sub-menu li a:before {
   display: none !important;
@@ -831,7 +849,8 @@ body .modal-backdrop {
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.sub-menu li.current-menu-item > a,
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.sub-menu li.active > a {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #007236;
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.sub-menu li.children-mega-menu .child-mega-menu {
   width: 100%;
@@ -885,7 +904,8 @@ body .modal-backdrop {
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul li a:hover,
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul li.active a,
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul li.current-menu-item > a {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #00A551;
 }
 .sc-header-section .sc-header .menu-area .nav-expander {
   position: absolute;
@@ -893,7 +913,8 @@ body .modal-backdrop {
   top: 50%;
   transform: translateY(-50%);
   transition: all 0.3s ease;
-  background: #f24d5d;
+  /* background: #f24d5d; */
+  background: #007236;
   border-radius: 3px;
   padding: 16px 10px;
 }
@@ -912,7 +933,8 @@ body .modal-backdrop {
   margin-bottom: 0;
 }
 .sc-header-section .sc-header .menu-area .nav-expander:hover span {
-  background: #102d47;
+  /* background: #102d47; */
+  background: #fff;
 }
 .sc-header-section .sc-header .menu-area .expand-btn-inner {
   padding-right: 80px;
@@ -989,7 +1011,8 @@ body .modal-backdrop {
   font-weight: normal;
 }
 .sc-header-section .sc-header .menu-area .expand-btn-inner li > a:hover {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #00A551;
 }
 .sc-header-section .sc-header .menu-area .expand-btn-inner li:last-child {
   margin-right: 0;
@@ -1011,7 +1034,8 @@ body .modal-backdrop {
   color: #494949;
 }
 .sc-header-section .sc-header .menu-area.sticky .main-menu .sc-menu ul.nav-menu > li > a:hover {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #007236;
 }
 .sc-header-section .sc-header .menu-area.sticky .expand-btn-inner li.cart-inner .cart-icon {
   height: 90px;
@@ -1071,7 +1095,8 @@ body .modal-backdrop {
   border-radius: 50%;
   cursor: pointer;
   transition: all 0.3s ease;
-  background: #f24d5d;
+  /* background: #f24d5d; */
+  background: #007236;
   z-index: 1;
   right: 20px;
 }
@@ -1094,7 +1119,8 @@ body .modal-backdrop {
   margin-right: 20px;
 }
 .sc-header-section .sc-header .right_menu_togle .address-widget li a:hover {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #00A551;
 }
 .sc-header-section .sc-header .right_menu_togle .canvas-contact {
   margin-top: 30px;
@@ -1113,12 +1139,14 @@ body .modal-backdrop {
   height: 40px;
   line-height: 40px;
   border-radius: 40px;
-  background: #f24d5d;
+  /* background: #f24d5d; */
+  background: #007236;
   color: #ffffff;
   transition: 0.4s;
 }
 .sc-header-section .sc-header .right_menu_togle .canvas-contact .social li a i:hover {
   opacity: 0.7;
+  background: #00A551;
 }
 .sc-header-section .sc-header .right_menu_togle .canvas-contact .social li a:hover {
   color: #f24d5d;
@@ -1143,19 +1171,26 @@ body .modal-backdrop {
     04. Banner Section CSS
 ---------------------------------------*/
 .sc-banner {
-  position: relative;
-  background-color: #f3fafc;
-  min-height: 750px;
+  /* position: relative; */
+  /* background-color: #f3fafc; */
+  /* min-height: 750px;
   display: grid;
   align-items: flex-end;
   z-index: 9;
-  overflow: hidden;
+  overflow: hidden; */
+  display: flex;
+    align-items: center;
+    z-index: 9;
+    overflow: hidden;
+    padding-top: 60px;
 }
 .sc-banner .banner-content {
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
+  /* padding-bottom: 160px; */
 }
 .sc-banner .banner-content .sub-title {
-  color: #40c1ec;
+  /* color: #40c1ec; */
+  color: #007236;
   font-size: 16px;
   line-height: 1.2;
   font-weight: 500;
@@ -1186,17 +1221,18 @@ body .modal-backdrop {
   color: #FEB546;
 }
 .sc-banner .banner-img {
-  position: absolute;
-  bottom: auto;
+  /* position: absolute; */
+  /* bottom: auto; */
   /* right: 14%; */
-  top: auto;
+  /* top: auto; */
 }
 .sc-banner .animation-shape:before {
-  background: rgba(64, 193, 236, 0.5);
+  /* background: rgba(64, 193, 236, 0.5); */
+  background: rgb(0,165,81, 25%);
   content: "";
   position: absolute;
   z-index: 0;
-  left: 45%;
+  left: 80%;
   bottom: -300px;
   transform: translateX(-50%);
   display: block;
@@ -1421,7 +1457,8 @@ body .modal-backdrop {
   height: 70px;
   line-height: 70px;
   border-radius: 100%;
-  background: #E7EAED;
+  /* background: #E7EAED; */
+  background: #fff;
   text-align: center;
   transition: all 0.3s ease;
   margin: 0 auto;
@@ -1443,11 +1480,13 @@ body .modal-backdrop {
   color: #505050;
 }
 .sc-categories .categories-item:hover {
-  background: #40c1ec;
+  /* background: #40c1ec; */
+  background:#00A551;
   color: #ffffff;
 }
 .sc-categories .categories-item:hover .icon-part {
-  background: #79D4F2;
+  /* background: #79D4F2; */
+  background: #00A551;
 }
 .sc-categories .categories-item:hover .icon-part i {
   color: #ffffff;
@@ -1597,8 +1636,10 @@ body .modal-backdrop {
   line-height: 35px;
   border-radius: 35px;
   line-height: 38px;
-  background: #D9F3FB;
-  color: #102d47;
+  /* background: #D9F3FB; */
+  /* color: #102d47; */
+  background: rgb(0,165,81, 20%);
+  color: #007236;
   text-align: center;
   display: inline-block;
   font-size: 12px;
@@ -1631,7 +1672,8 @@ body .modal-backdrop {
   text-align: right;
 }
 .sc-popular-courses.main-home .courses-grid .bottom-part .btn-part a {
-  background: #40c1ec;
+  /* background: #40c1ec; */
+  background: #007236;
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -1647,7 +1689,8 @@ body .modal-backdrop {
   font-weight: 700;
 }
 .sc-popular-courses.main-home .courses-grid .bottom-part .btn-part a:hover {
-  background: #f24d5d;
+  /* background: #f24d5d; */
+  background: #00A551;
 }
 .sc-popular-courses.main-home .courses-grid .courses-grid .img-part a img {
   transform: scale(1.1);
@@ -2594,7 +2637,8 @@ body .modal-backdrop {
   color: #fcb903;
 }
 .sc-testimonial.style1 .testi-item:hover {
-  background-color: #40c1ec;
+  /* background-color: #40c1ec; */
+  background: #00A551;
 }
 .sc-testimonial.style1 .testi-item:hover .desc {
   color: #ffffff;
@@ -2607,7 +2651,8 @@ body .modal-backdrop {
 .sc-testimonial.style1 .center .testi-item {
   /* background-color: #40c1ec; */
   background-color: #e0f7ff;
-  background-image: repeating-linear-gradient( #40c1ec55, #40c1ec );
+  /* background-image: repeating-linear-gradient( #40c1ec55, #40c1ec ); */
+  background: #00A551;
 }
 .sc-testimonial.style1 .center .testi-item .desc {
   color: #ffffff;
@@ -3382,7 +3427,8 @@ body .modal-backdrop {
   position: absolute;
   right: 0;
   top: 0;
-  background: #f24d5d;
+  /* background: #f24d5d; */
+  background: #00A551;
   color: #ffffff;
   padding: 16px 30px;
   transition: all 0.3s ease;
@@ -4380,7 +4426,8 @@ body .modal-backdrop {
   content: '';
   right: 0;
   top: 0;
-  background: #f24d5d;
+  /* background: #f24d5d; */
+  background: #007236;
   color: #ffffff;
   font-size: 16px;
   font-weight: 600;
@@ -4395,6 +4442,7 @@ body .modal-backdrop {
 }
 .sc-footer .footer-newsletter .newsletter-form button:hover i {
   left: 6px;
+  /* background: #00A551; */
 }
 .sc-footer .footer-newsletter .newsletter-form ::placeholder {
   color: #102d47;
@@ -4430,7 +4478,8 @@ body .modal-backdrop {
   text-align: center;
 }
 .sc-footer .footer-content .footer-social li a i:hover {
-  background: #f24d5d;
+  /* background: #f24d5d; */
+  background: #00A551;
 }
 .sc-footer .footer-content .footer-social li:last-child {
   margin: 0;
@@ -4444,10 +4493,12 @@ body .modal-backdrop {
 }
 .sc-footer .footer-content .address-widget li i {
   padding-right: 16px;
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #00A551;
 }
 .sc-footer .footer-content .address-widget li a:hover {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #00A551;
 }
 .sc-footer .footer-content .address-widget li:last-child {
   margin-bottom: 0;
@@ -4467,7 +4518,8 @@ body .modal-backdrop {
   color: #eee;
 }
 .sc-footer .footer-content ul.widget-menu li a:hover {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #00A551;
 }
 .sc-footer .footer-bottom {
   padding: 15px 0;
@@ -4485,7 +4537,8 @@ body .modal-backdrop {
   color: #eee;
 }
 .sc-footer .footer-bottom .copyright-menu li a:hover {
-  color: #f24d5d;
+  /* color: #f24d5d; */
+  color: #00A551;
 }
 .sc-footer.footer-style2 .footer-newsletter {
   border-bottom: 0;
@@ -4568,7 +4621,8 @@ body .modal-backdrop {
   border-radius: 50px 50px 4px 4px;
 }
 #scrollUp i {
-  background: #f24d5d;
+  /* background: #f24d5d; */
+  background: #007236;
   border-radius: 50%;
   height: 40px;
   font-size: 24px;
@@ -4581,7 +4635,8 @@ body .modal-backdrop {
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
 }
 #scrollUp i:hover {
-  background-color: #ef1d32;
+  /* background-color: #ef1d32; */
+  background-color: #00A551;
 }
 /* ------------------------------------
     21. Preloader CSS
@@ -4597,7 +4652,8 @@ section.loader_first {
   width: 60px;
   height: 60px;
   border: 10px solid #102d47;
-  border-top: 10px solid #f24d5d;
+  /* border-top: 10px solid #f24d5d; */
+  border-top: 10px solid #00A551;
   border-radius: 50%;
   animation: pre_rotate 1.5s linear infinite;
   position: absolute;
@@ -4618,7 +4674,8 @@ section.loader_first {
 .green-color-style .sc-header .topbar-area .topbar-right li.login-register a:hover,
 .green-color-style .sc-header .topbar-area .topbar-right li.login-register i,
 .green-color-style .sc-header .topbar-area .topbar-contact li a:hover {
-  color: #4ad567;
+  /* color: #4ad567; */
+  color: #007236;
 }
 .green-color-style .readon {
   transition: 0.4s;
@@ -4637,7 +4694,8 @@ section.loader_first {
 .green-color-style .sc-testimonial.style1 .testi-item:hover,
 .green-color-style .sc-carousel.nav-style2 .owl-nav .owl-next:hover,
 .green-color-style .sc-carousel.nav-style2 .owl-nav .owl-prev:hover {
-  background: linear-gradient(132.27deg, #4ad567 -5.24%, #61ff82 -5.23%, #34a853 100%);
+  /* background: linear-gradient(132.27deg, #4ad567 -5.24%, #61ff82 -5.23%, #34a853 100%); */
+  background: #00A551;
 }
 .green-color-style .readon:hover {
   background-position: right center;
