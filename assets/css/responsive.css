@@ -18,6 +18,31 @@
 .sc-team.team-style-2 .team-inner-item img{
     border-radius: 50% 64% 69% 51% / 38% 57% 61% 80%;
 }
+@media only screen and (max-width: 600px){
+    .contact-action {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contact-action a{
+        margin-right: 0;
+    }
+
+    .bg-letus-know-sec{
+        padding-top: 0;
+    }
+
+    .let-us .title{
+        text-align: center;
+    }
+
+    .let-us p{
+        text-align: center;
+    }
+
+}
+
+
 @media only screen and (max-width: 1600px){
     .sc-banner .banner-img {
         /* right: 6%; */
