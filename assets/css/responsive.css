@@ -40,6 +40,27 @@
         text-align: center;
     }
 
+    /* =======menu item */
+
+    .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.nav-menu li.menu-item-has-children a:before {
+        display: none;
+    }
+
+
+    .sc-breadcrumbs .breadcrumbs-img {
+        background-attachment:unset;
+        background-position: center;
+    }
+
+    /* hero */
+    .banner-bg {
+        
+        /* background: rgb(255,255,255); */
+        background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(245,245,245,0.5578606442577031) 0%, rgba(240,241,241,0.5606617647058824) 34%, rgba(194,195,195,0.5998774509803921) 100%),url(../images/banner/banner-bg.png);
+        background-position: center;
+        background-size: cover;
+    }
+
 }
 
 

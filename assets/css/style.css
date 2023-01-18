@@ -809,10 +809,10 @@ body .modal-backdrop {
   /* color: #f24d5d; */
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.nav-menu li.menu-item-has-children a {
-  /* padding-right: 12px; */
+  padding-right: 12px;
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.nav-menu li.menu-item-has-children a:before {
-  /* content: "+";
+  content: "+";
   position: absolute;
   left: auto;
   right: 0;
@@ -821,7 +821,7 @@ body .modal-backdrop {
   display: block;
   cursor: pointer;
   transform: translateY(-50%);
-  transition: all .5s ease; */
+  transition: all .5s ease;
 }
 .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.nav-menu li.menu-item-has-children a:hover:before {
   content: "-";
@@ -4862,6 +4862,13 @@ body .modal-backdrop {
   background: #00134E;
   padding-top: 190px;
 }
+
+/* footer img */
+
+.footer-widget .logo-part img {
+  width: 70%;
+}
+
 /* ------------------------------------
     19. Error Section CSS
 ---------------------------------------*/
