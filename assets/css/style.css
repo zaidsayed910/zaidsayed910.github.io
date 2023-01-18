@@ -4081,7 +4081,8 @@ body .modal-backdrop {
   font-weight: 600;
   color: #ffffff;
   /* background: #f24d5d; */
-  background: #007236;
+  /* background: #007236; */
+  background : #65B32E;
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
@@ -4229,6 +4230,10 @@ body .modal-backdrop {
   padding-bottom: 100px;
 }
 
+.bg-cd-green{
+  background : #65B32E;
+}
+
 .bg-overlay-geen{
   background-image: -webkit-gradient(linear,left top,left bottom,from(#32C36CD9),color-stop(82%,#32C36C));
   background-image: -o-linear-gradient(top,#32C36CD9 0%,#32C36C 82%);
@@ -4240,12 +4245,14 @@ body .modal-backdrop {
   line-height: 54px;
   margin-bottom: 31px;
   color: #fff;
+  font-weight: 700;
 }
 
 .heading-subtitle{
   text-transform: capitalize;
   color: #fff;
-  font-size: 15px;
+  /* font-size: 15px; */
+  font-size: 20px;
   font-weight: 700;
   line-height: 1;
   margin-bottom: 13px;
@@ -4253,7 +4260,8 @@ body .modal-backdrop {
 
 .heading-desc{
   color: #f9f9f9;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: 18px;
   font-weight: 400;
   line-height: 27px;
   margin-bottom: 25px;
@@ -4261,7 +4269,7 @@ body .modal-backdrop {
 
 .contact-quote p {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 25px;
   color: #f9f9f9;
 }
@@ -4309,6 +4317,7 @@ body .modal-backdrop {
   -ms-flex-align: center;
   align-items: center;
   font-weight: 700;
+  /* font-size: 15px; */
   font-size: 15px;
   line-height: 36px;
   color: #FFF;
