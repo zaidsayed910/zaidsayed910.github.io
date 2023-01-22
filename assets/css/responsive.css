@@ -40,6 +40,14 @@
         text-align: center;
     }
 
+    .detail-letus-know .heading-title{
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 31px;
+        color: #fff;
+        font-weight: 700;
+    }
+
     /* =======menu item */
 
     .sc-header-section .sc-header .menu-area .main-menu .sc-menu ul.nav-menu li.menu-item-has-children a:before {
@@ -344,6 +352,7 @@
         position: absolute;
         height: 90px;
         line-height: 90px;
+        left: 0;
     }
     .sc-header-section .sc-header .menu-area .sc-menu-area {
     	width: 100%;
