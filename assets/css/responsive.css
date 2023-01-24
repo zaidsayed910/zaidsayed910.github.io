@@ -81,6 +81,17 @@
         min-height: 275px;
         /* max-height: 290px; */
     }
+    /* contact us */
+    
+    .boxx {
+    box-shadow: unset; 
+    /* border-radius: 12px; */
+    padding: 60px 10px;
+    }
+
+    .flex-btn{
+        width: 100%;
+    }
 
 
 }

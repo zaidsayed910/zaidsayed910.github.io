@@ -105,7 +105,7 @@
 html,
 body {
   font-size: 17px;
-  color: #505050;
+  color: #505050; 
   font-family: 'Nunito', sans-serif;
   vertical-align: baseline;
   line-height: 28px;
@@ -223,6 +223,10 @@ body .dblock {
 }
 .width-unset {
   width: unset !important;
+}
+.colr-txt{
+  color: #ffffff;
+
 }
 .white-bg {
   background-color: #ffffff;
@@ -4063,18 +4067,19 @@ body .modal-backdrop {
   font-size: 28px;
   /* color: #102d47; */
   /* color: #fff; */
-  color: #007236;
+  /* color: #007236; */
   font-weight: 600;
   margin-bottom: 10px;
+  margin-top: -26px;
 }
 .contact-page-section .sc-quick-contact {
-  padding: 28px 30px 35px;
+  padding: 35px 30px 35px;
   /* box-shadow: 0px 0px 16px rgba(4, 59, 80, 0.1);
   border-radius: 5px;
   background: #122d48; */
-  border: 1px solid #cde2e7;
+  /* border: 1px solid #cde2e7; */
   /* box-shadow: 0px 0px 16px rgba(4, 59, 80, 0.1); */
-  border-radius: 16px;
+  /* border-radius: 16px; */
   background: #fff;
 }
 .form-box-shadow {
@@ -4099,15 +4104,16 @@ body .modal-backdrop {
     width: 100%;
     max-width: 100%;
     opacity: 1;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     /* border: 1px solid #fff; */
     /* border-bottom: 2px solid #f24d5d; */
     color: #767676;
     padding: 10px 18px;
     /* background: #122D48; */
     /* color: #fff; */
-    border-radius: 8px;
-    border: 1px solid #cde2e7;
+    /* border-radius: 8px; */
+    /* border: 1px solid #cde2e7; */
+    border: 1px solid #eaeaea;
 }
 
 .contact-page-section .sc-quick-contact .from-control ::placeholder{
@@ -4115,7 +4121,9 @@ body .modal-backdrop {
 }
 
 .contact-page-section .sc-quick-contact .from-control:focus {
-  border: 1px solid #00A551;
+  /* border: 1px solid #00A551; */
+  /* border: 1px solid #102d47; */
+  border: 1px solid #65B32E;
 }
 
 
@@ -4133,12 +4141,14 @@ body .modal-backdrop {
   font-weight: 600;
   color: #ffffff;
   /* background: #f24d5d; */
-  background: #007236;
+  /* background: #007236; */
+  background: #65B32E;
   /* background : #65B32E; */
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
   font-family: 'Jost', sans-serif;
+  /* width: 270px; */
 }
 .contact-page-section .sc-quick-contact .form-group .btn-send:hover {
   opacity: 0.90;
@@ -4378,6 +4388,17 @@ body .modal-backdrop {
   background: #043b50;
   
 }
+
+ .let-us-know-box {
+  padding: 35px 30px 35px;
+  /* box-shadow: 0px 0px 16px rgba(4, 59, 80, 0.1);
+  border-radius: 5px;
+  background: #122d48; */
+  /* border: 1px solid #cde2e7; */
+  box-shadow: 0px 0px 16px rgba(4, 59, 80, 0.1) !important;
+  border-radius: 16px !important;
+  background: #fff;
+}
 .advantages-list {
   text-align: left;
   margin: 0;
@@ -4420,7 +4441,13 @@ body .modal-backdrop {
   color: #fff;
   margin-right: 15px;
   border-radius: 50%;
-  font-size: 13px;
+  font-size: 15px;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
 }
 
 .contact-action a {
@@ -5141,6 +5168,64 @@ section.loader_first {
   background-position: right center;
 }
 
+.boxx{
+  box-shadow: 0px 5px 83px 0px rgb(9 29 62 / 15%);
+  border-radius: 12px;
+  padding: 60px 60px;
+}
+.size{
+  padding: 30px 20px;
+}
+.Descri-style{
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.flex-btn {
+     width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    /* background: #f24d5d; */
+    /* background: #007236; */
+    background: #65B32E;
+    /* background: #65B32E; */
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Jost', sans-serif;
+}
+
+.flex-btn:hover {
+  background: #102d47;
+  transition: all 0.3s ease;
+}
+
+/* --------------icons */
+
+i.fa-solid.fa-circle-arrow-right::before{
+  content: "\f0a9";
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
 /* ----------------------------------
     color schema
 -----------------------------------------*/
@@ -5172,6 +5257,10 @@ section.loader_first {
 .btn-asda-bg-lg-green{
   background: #68a51c;
   color: #fff;
+}
+
+.txt-deep-blue {
+  color: #102d47;
 }
 
 /* ========= btn slide effect */
