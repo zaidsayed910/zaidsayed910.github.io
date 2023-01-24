@@ -5124,6 +5124,7 @@ section.loader_first {
   animation: pre_rotate 1.5s linear infinite;
   position: absolute;
   left: 50%;
+  right: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }

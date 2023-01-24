@@ -19,6 +19,23 @@
     border-radius: 50% 64% 69% 51% / 38% 57% 61% 80%;
 }
 @media only screen and (max-width: 600px){
+
+    .loader_first .circular-spinner{
+        width: 50px;
+        height: 50px;
+        border: 10px solid #102d47;
+        /* border-top: 10px solid #f24d5d; */
+        /* border-top: 10px solid #00A551; */
+        border-top: 10px solid #65B32E;
+        border-radius: 50%;
+        animation: pre_rotate 1.5s linear infinite;
+        position: absolute;
+        left: 45%;
+        /* right: 50%; */
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
     .contact-action {
         display: flex;
         justify-content: space-evenly;
@@ -65,8 +82,13 @@
         
         /* background: rgb(255,255,255); */
         background: linear-gradient(177deg, rgba(255,255,255,1) 0%, rgba(245,245,245,0.5578606442577031) 0%, rgba(240,241,241,0.5606617647058824) 34%, rgba(194,195,195,0.5998774509803921) 100%),url(../images/banner/banner-bg.png);
-        background-position: center;
+        background-position: top center;
         background-size: cover;
+    }
+
+    .sc-banner {
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     /* teams cards */
