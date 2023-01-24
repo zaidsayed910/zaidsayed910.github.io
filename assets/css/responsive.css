@@ -69,6 +69,20 @@
         background-size: cover;
     }
 
+    /* teams cards */
+
+    .sc-team.team-style-1 .team-wrap {
+        min-height: 470px;
+    }
+
+    /* testimonilas */
+
+    .sc-testimonial.style1 .testi-item {
+        min-height: 275px;
+        /* max-height: 290px; */
+    }
+
+
 }
 
 
