@@ -69,6 +69,18 @@
         background-size: cover;
     }
 
+    /* contact us */
+    .boxx {
+    box-shadow: unset; 
+    /* border-radius: 12px; */
+    padding: 60px 10px;
+    }
+
+    .flex-btn{
+        width: 100%;
+    }
+
+
 }
 
 
