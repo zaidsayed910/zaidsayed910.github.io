@@ -226,7 +226,9 @@ body .dblock {
 }
 .colr-txt{
   color: #ffffff;
-
+}
+.colr-txt a:hover{
+  color: #102d47;
 }
 .white-bg {
   background-color: #ffffff;
