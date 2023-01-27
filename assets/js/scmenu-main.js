@@ -105,6 +105,7 @@ $(document).ready(function () {
 	$(window).on('load', function () {	
 		window_width = $(window).width();
 		$('.sc-menu').addClass( "sc-menu-close" );
+		$('.sc-menu').css( "height", "0" ).addClass( "sc-menu-close" );	
 	});
 	
 	$(window).resize( function(){    
