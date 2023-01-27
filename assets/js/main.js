@@ -35,7 +35,6 @@
         $(".loader_first").delay(500).fadeOut(300);
         $(".circular-spinner").on( 'click', function() {
         $(".loader_first").fadeOut(300);
-        $('.sc-menu').css( "height", "0" ).addClass( "sc-menu-close" );	
         })
     })
 

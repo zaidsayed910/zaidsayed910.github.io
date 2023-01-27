@@ -7,6 +7,7 @@ $(document).ready(function () {
 	var arrow_down = '<i class="fa fa-angle-down" aria-hidden="true"></i>';
 	var arrow_span = '<span class="sc-menu-parent">' + arrow_down + '</span>';
 	var close_button = '<div class="sub-menu-close"><i class="fa fa-times" aria-hidden="true"></i>Close</div>';
+	$('.sc-menu').css( "height", "0" ).addClass( "sc-menu-close" );	
 	
 	//Insert all arrow down span element
 	$('.nav-menu .sc-mega-menu').append(arrow_span);
