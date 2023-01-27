@@ -696,9 +696,9 @@
 }
 
 @media only screen and (max-width: 600px){ 
-	.sc-menu-toggle {
+	/* .sc-menu-toggle {
 		display: block;
-	}
+	} */
 }
 
 @media only screen and (max-width: 1080px) {	
