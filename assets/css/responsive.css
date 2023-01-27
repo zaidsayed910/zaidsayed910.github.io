@@ -20,7 +20,7 @@
 }
 @media only screen and (max-width: 600px){
 
-    /* .loader_first .circular-spinner{
+    .loader_first .circular-spinner{
         width: 50px;
         height: 50px;
         border: 10px solid #102d47;
@@ -31,7 +31,7 @@
         left: 45%;
         top: 50%;
         transform: translate(-50%, -50%);
-    } */
+    }
 
     .contact-action {
         display: flex;
